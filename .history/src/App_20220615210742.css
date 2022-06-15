@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.App{
+    background-image: url(../public/back.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Open Sans', sans-serif;
+    color: rgba(154,156,161,255);
+}
+.App__container{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    /* padding: 8vh; */
+    width: 100%;
+}
