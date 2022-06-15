@@ -1,0 +1,16 @@
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top:18px;
+    align-items: center;
+    padding: 20px 20px;
+    border: 2px solid #fff;
+    background-color: #3a53d4;
+}
+.nav__search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}

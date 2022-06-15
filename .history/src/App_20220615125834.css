@@ -1,0 +1,17 @@
+.App{
+    background-image: url(../public/back.jpg);
+    width: 100vw;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.App__container{
+    position: absolute;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    padding: 10vh;
+    width: 100%;
+}

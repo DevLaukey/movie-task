@@ -1,0 +1,14 @@
+.App{
+ background-image: url(../public/bg.jpg);
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.App__container{
+    width: 100vw;
+    height: 100vh;
+   border: 2px solid #fff;
+    margin: 0 auto;
+
+}

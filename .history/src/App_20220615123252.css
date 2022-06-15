@@ -1,0 +1,15 @@
+.App{
+ background-image: url(../public/bg.jpg);
+ 
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.App__container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+
+}
