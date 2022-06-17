@@ -16,7 +16,7 @@ function Movie() {
             className="movie__rating"
             rating={rating}
             starRatedColor="blue"
-            starDimension='15px'
+            starDimension='10px'
             numberOfStars={5}
             name="rating"
           />

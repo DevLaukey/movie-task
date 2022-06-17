@@ -10,7 +10,7 @@ function Movie() {
     <div className="movie">
       <img src={`${url}/${path}`} alt="" className="movie__pic" />
       <div className="movie__details">
-        <h4 className="movie__title">The Shawshank Redemion</h4>
+        <h4 className="movie__title">The Shawshank Redemption</h4>
         <div className="movie__adds">
           <StarRatings
             className="movie__rating"

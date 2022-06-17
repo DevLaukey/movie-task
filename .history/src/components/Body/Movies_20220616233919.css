@@ -1,26 +1,19 @@
 
-.movies__container {
-    display: flex;
-    flex-direction: column;
-    margin-left: 2.4rem;
-
-}
 .movies{
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1.5rem;
+    margin-left: 2.4rem;
 }
 
 .movie{
     display: flex;
     flex-direction: column;
-margin-top: 1.4rem;
+
     width: 15vw;
 }
 .movies__title{
     font-size: 1.2rem;
     font-weight: bold;
-    margin-top: 1.4rem;
+    margin-top: 1rem;
+    margin-bottom: 1.4rem;
 }
 .movie__pic{
     height: 40vh;
