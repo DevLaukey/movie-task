@@ -16,7 +16,6 @@
   width: 15vw;
 }
 .movie:hover{
-  cursor: pointer;
 }
 .movies__title {
   font-size: 1.2rem;
