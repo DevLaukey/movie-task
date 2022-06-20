@@ -1,10 +1,8 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import "./Nav.css"
 import { AiOutlineSearch} from "react-icons/ai";
 import { FiSettings } from "react-icons/fi";
 import { useDispatch, useSelector } from 'react-redux';
-import axios from 'axios';
-import { changeMovie } from '../../../redux/slices/movieSlice';
 
 function Nav() {
   const movies = useSelector((state) => state.movies);
@@ -20,7 +18,7 @@ useEffect(() => {
   movieDetails.then((res) => {
     dispatch(changeMovie(res.data.results));
   });
-}, [search]);
+}, []);
 
   return (
     <div className="nav">

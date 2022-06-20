@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import "./Nav.css"
 import { AiOutlineSearch} from "react-icons/ai";
 import { FiSettings } from "react-icons/fi";
@@ -20,7 +20,7 @@ useEffect(() => {
   movieDetails.then((res) => {
     dispatch(changeMovie(res.data.results));
   });
-}, [search]);
+}, []);
 
   return (
     <div className="nav">

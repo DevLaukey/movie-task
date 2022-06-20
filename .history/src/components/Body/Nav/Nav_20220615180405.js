@@ -1,27 +1,9 @@
-import React, { useEffect, useState } from 'react'
+import React from 'react'
 import "./Nav.css"
 import { AiOutlineSearch} from "react-icons/ai";
 import { FiSettings } from "react-icons/fi";
-import { useDispatch, useSelector } from 'react-redux';
-import axios from 'axios';
-import { changeMovie } from '../../../redux/slices/movieSlice';
 
 function Nav() {
-  const movies = useSelector((state) => state.movies);
-  const dispatch = useDispatch();
-const [search, setSearch] = useState("");
-const movieDetails = axios.get(
-  `https://api.themoviedb.org/3/search/movie?api_key=2384938f56f2d5e077d35a9f4274b76f&language=en-US&query=${search}&page=1&include_adult=false`
-);
-
-useEffect(() => {
-  dispatch(changeMovie([]));
-
-  movieDetails.then((res) => {
-    dispatch(changeMovie(res.data.results));
-  });
-}, [search]);
-
   return (
     <div className="nav">
       <div className="nav__search">
@@ -30,9 +12,6 @@ useEffect(() => {
           className="nav__search__input"
           type="text"
           placeholder="Search"
-          onChange={(e) => {
-            setSearch(e.target.value);
-          }}
         />
       </div>
       <div className="nav__icons">

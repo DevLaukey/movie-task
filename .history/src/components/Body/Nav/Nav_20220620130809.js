@@ -20,7 +20,7 @@ useEffect(() => {
   movieDetails.then((res) => {
     dispatch(changeMovie(res.data.results));
   });
-}, [search]);
+}, []);
 
   return (
     <div className="nav">
