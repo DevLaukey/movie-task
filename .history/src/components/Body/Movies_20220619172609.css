@@ -2,8 +2,6 @@
   display: flex;
   flex-direction: column;
   margin-left: 2.4rem;
-  overflow:hidden;
-  
 }
 .movies {
   display: flex;
@@ -47,4 +45,3 @@
 .movie__rating {
   height: 20px;
 }
-

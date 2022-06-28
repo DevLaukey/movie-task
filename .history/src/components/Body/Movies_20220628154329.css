@@ -48,3 +48,12 @@
   height: 20px;
 }
 
+@media  (max-width: 768px) {
+  .movies {
+flex-direction: column;
+width: 100%;    
+  }
+  .movie{
+    display: flex;
+  }
+}

@@ -98,9 +98,9 @@
   width: 100%;
   color: black;
 }
-@media  (max-width: 768px) {
+@media  (min-width: 768px) {
   .sidebar {
-    display:none;
+    width: 20%;
   }
   
 }
